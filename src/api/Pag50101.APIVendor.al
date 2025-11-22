@@ -57,6 +57,26 @@ page 50101 "API Vendor"
                 {
                     Caption = 'Email';
                 }
+                field(genBusPostingGroup; Rec."Gen. Bus. Posting Group")
+                {
+                    Caption = 'Gen. Bus. Posting Group';
+                }
+                field(vatBusPostingGroup; Rec."VAT Bus. Posting Group")
+                {
+                    Caption = 'VAT Bus. Posting Group';
+                }
+                field(vendorPostingGroup; Rec."Vendor Posting Group")
+                {
+                    Caption = 'Vendor Posting Group';
+                }
+                field(vatRegistrationNo; Rec."VAT Registration No.")
+                {
+                    Caption = 'VAT Registration No.';
+                }
+                field(paymentTermsCode; Rec."Payment Terms Code")
+                {
+                    Caption = 'Payment Terms Code';
+                }
             }
         }
     }
